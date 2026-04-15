@@ -8,7 +8,7 @@ export const projects = [
     title: "The Final Question",
     description: "Interactive narrative game with branching choices, exploring the fate of a civilization.",
     tech: ["React", "JavaScript"],
-    demo: "https://github.com/KeylorCalderon/final-question-interactive-text-game",
+    demo: "https://final-question-interactive-text-gam.vercel.app/",
     image: finalQuestionImg
   },
   {
