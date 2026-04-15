@@ -1,6 +1,6 @@
 import Window from "../UI/Window";
 
-export default function ContactWindow({ onClose }) {
+function ContactWindow({ onClose }) {
   return (
     <Window
       title="Contact"
@@ -11,3 +11,5 @@ export default function ContactWindow({ onClose }) {
     </Window>
   );
 }
+
+export default ContactWindow;

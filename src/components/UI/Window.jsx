@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default function Window({ title, onClose, children, style = {} }) {
+function Window({ title, onClose, children, style = {} }) {
   useEffect(() => {
     const handleEsc = (e) => {
       if (e.key === "Escape") onClose();
@@ -50,3 +50,5 @@ export default function Window({ title, onClose, children, style = {} }) {
     </div>
   );
 }
+
+export default Window;

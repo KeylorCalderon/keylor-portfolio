@@ -1,13 +1,27 @@
 import Window from "../UI/Window";
+import { projects } from "../../assets/projects";
+import ProjectCard from "../UI/ProjectCard";
 
-export default function ProjectsWindow({ onClose }) {
+function ProjectsWindow({ onClose }) {
   return (
     <Window
       title="Projects"
       onClose={onClose}
-      style={{ width: 600, height: 350 }}
+      style={{ width: 700, height: 400 }}
     >
-      <p>Aquí irán los proyectos</p>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(2, 1fr)",
+          gap: 10,
+        }}
+      >
+        {projects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </div>
     </Window>
   );
 }
+
+export default ProjectsWindow;

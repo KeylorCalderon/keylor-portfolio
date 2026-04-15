@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+body {
+    font-family: 'Inter';
+    color: #181818;
+}
