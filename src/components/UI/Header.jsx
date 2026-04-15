@@ -27,13 +27,14 @@ function Header({ darkMode, setDarkMode }) {
 
       <div className="flex items-center gap-4">
         <span className="text-sm">{time}</span>
-
+        {/*
         <button
           onClick={() => setDarkMode(!darkMode)}
           className="px-3 py-1 border rounded-lg"
         >
           {darkMode ? "☀️" : "🌙"}
         </button>
+        */}
       </div>
     </div>
   );
