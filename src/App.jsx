@@ -15,7 +15,7 @@ function App() {
   const [activeWindow, setActiveWindow] = useState(null);
 
   return (
-    <div className="h-screen flex bg-[#F4F1E6] bg-[url('/bg_texture.png')] bg-repeat opacity-100">
+    <div className="h-screen flex bg-[#F4F1E6] bg-[url('/bg_texture.png')] bg-repeat opacity-100 px-80 gap-50">
       <div className="w-24 flex flex-col items-center justify-center gap-6">
         <FolderButton
           label="About"
@@ -31,14 +31,13 @@ function App() {
         />
       </div>
 
-      <div className="flex-1 flex items-center justify-center">
-        <h1 className="text-6xl text-center font-bold">
-          I'm Keylor <br /> Full Stack Developer
+      <div className="flex-1 flex flex-col items-start justify-center px-10">
+        <h1 className="text-7xl font-bold">
+          I am Keylor <br /> Software developer.
         </h1>
-        <p className="text-6xl text-center font-bold">
-          Hi, welcome to my site! I'm a developer that builds interactive and
-          user-friendly websites. Let's work together and make your ideas come
-          alive on the internet. Drop me a message.
+        <p className="text-xl font-normal mt-10 max-w-2xl">
+          Hi, welcome to my site! I am a developer that builds interactive and
+          user-friendly websites.
         </p>
       </div>
 

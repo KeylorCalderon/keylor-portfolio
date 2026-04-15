@@ -9,7 +9,7 @@ function ProjectsWindow({ onClose }) {
       onClose={onClose}
       style={{
         width: "60vw",
-        maxWidth: "1100px",
+        maxWidth: "1080px",
         height: "93vh",
         maxHeight: "950px",
       }}
