@@ -17,6 +17,7 @@ function Window({ title, onClose, children, style = {} }) {
         position: "fixed",
         inset: 0,
         background: "rgba(0,0,0,0.76)",
+        zIndex: 100,
       }}
     >
       <div
