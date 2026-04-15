@@ -41,10 +41,18 @@ function Window({ title, onClose, children, style = {} }) {
             marginBottom: 10,
           }}
         >
-          <h2>{title}</h2>
-          <button onClick={onClose}>X</button>
+          <p style={{ fontSize: 26 }}>{title}</p>
+          <button className="standard-button" onClick={onClose}>
+            X
+          </button>
         </div>
-
+        <hr
+          style={{
+            margin: "10px 0",
+            border: "none",
+            borderTop: "1px solid #eee",
+          }}
+        />
         {children}
       </div>
     </div>

@@ -6,28 +6,25 @@ export const projects = [
   {
     id: 1,
     title: "The Final Question",
-    description: "Interactive narrative game with branching decisions.",
+    description: "Interactive narrative game with branching choices, exploring the fate of a civilization.",
     tech: ["React", "JavaScript"],
-    github: "https://github.com/KeylorCalderon/final-question-interactive-text-game",
-    demo: null,
+    demo: "https://github.com/KeylorCalderon/final-question-interactive-text-game",
     image: finalQuestionImg
   },
   {
     id: 2,
-    title: "Mapa Kuarctech",
-    description: "Example text.",
+    title: "ComeTec",
+    description: "Website for math competitions for elementary and secondary school students.",
     tech: ["Angular", "Node.js", "MySQL"],
-    github: "https://github.com/KeylorCalderon",
-    demo: null,
-    image: kuarctechImg
+    demo: "https://www.cometec.cr/",
+    image: cometecImg
   },
   {
     id: 3,
-    title: "ComeTec",
-    description: "Example text.",
-    tech: ["Angular", "Node.js", "MySQL"],
-    github: "https://github.com/KeylorCalderon",
-    demo: null,
-    image: cometecImg
+    title: "Kuarc",
+    description: "Interactive map module using the Google Maps API for data visualization and analysis.",
+    tech: ["Angular", "Node.js", "MySQL", "Neo4j"],
+    demo: "https://kuarctech.com/kuarc/",
+    image: kuarctechImg
   }
 ];

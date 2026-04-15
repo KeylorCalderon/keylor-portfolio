@@ -8,9 +8,9 @@ function ProjectsWindow({ onClose }) {
       title="Projects"
       onClose={onClose}
       style={{
-        width: "90vw",
+        width: "60vw",
         maxWidth: "1100px",
-        height: "80vh",
+        height: "93vh",
         maxHeight: "950px",
       }}
     >
