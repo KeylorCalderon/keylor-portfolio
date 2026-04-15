@@ -7,7 +7,12 @@ function ProjectsWindow({ onClose }) {
     <Window
       title="Projects"
       onClose={onClose}
-      style={{ width: 700, height: 400 }}
+      style={{
+        width: "90vw",
+        maxWidth: "1100px",
+        height: "80vh",
+        maxHeight: "950px",
+      }}
     >
       <div
         style={{

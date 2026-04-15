@@ -23,12 +23,12 @@ function Window({ title, onClose, children, style = {} }) {
         onClick={(e) => e.stopPropagation()}
         style={{
           position: "absolute",
-          top: 100,
-          left: 100,
-          background: "white",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          background: "#ffffff",
           padding: 20,
-          border: "3px solid black",
-          borderRadius: 10,
+          borderRadius: 20,
           boxShadow: "0 10px 30px rgba(0,0,0,0.1)",
           ...style,
         }}

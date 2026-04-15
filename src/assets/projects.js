@@ -1,3 +1,7 @@
+import finalQuestionImg from "../assets/screenshot_the_final_question.jpg";
+import kuarctechImg from "../assets/screenshot_map_kuarc.jpg";
+import cometecImg from "../assets/screenshot_cometec.jpg";
+
 export const projects = [
   {
     id: 1,
@@ -5,7 +9,8 @@ export const projects = [
     description: "Interactive narrative game with branching decisions.",
     tech: ["React", "JavaScript"],
     github: "https://github.com/KeylorCalderon/final-question-interactive-text-game",
-    demo: null
+    demo: null,
+    image: finalQuestionImg
   },
   {
     id: 2,
@@ -13,7 +18,8 @@ export const projects = [
     description: "Example text.",
     tech: ["Angular", "Node.js", "MySQL"],
     github: "https://github.com/KeylorCalderon",
-    demo: null
+    demo: null,
+    image: kuarctechImg
   },
   {
     id: 3,
@@ -21,6 +27,7 @@ export const projects = [
     description: "Example text.",
     tech: ["Angular", "Node.js", "MySQL"],
     github: "https://github.com/KeylorCalderon",
-    demo: null
+    demo: null,
+    image: cometecImg
   }
 ];
