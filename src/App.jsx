@@ -3,6 +3,8 @@ import AboutWindow from "./components/Windows/AboutWindow";
 import ContactWindow from "./components/Windows/ContactWindow";
 import ProjectsWindow from "./components/Windows/ProjectsWindow";
 import FolderButton from "./components/UI/FolderButton";
+import Header from "./components/UI/Header";
+import Footer from "./components/UI/Footer";
 import "./index.css";
 
 const WINDOWS = {
@@ -13,9 +15,17 @@ const WINDOWS = {
 
 function App() {
   const [activeWindow, setActiveWindow] = useState(null);
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className="h-screen flex bg-[#F4F1E6] bg-[url('/bg_texture.png')] bg-repeat opacity-100 px-80 gap-50">
+    <div
+      className={`h-screen flex px-80 gap-50 ${
+        darkMode
+          ? "bg-black text-white"
+          : "bg-[#F4F1E6] text-black bg-[url('/bg_texture.png')] bg-repeat"
+      }`}
+    >
+      <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       <div className="w-24 flex flex-col items-center justify-center gap-6">
         <FolderButton
           label="About"
@@ -39,6 +49,7 @@ function App() {
           Hi, welcome to my site! I am a developer that builds interactive and
           user-friendly websites.
         </p>
+        <Footer />
       </div>
 
       {activeWindow === WINDOWS.ABOUT && (
