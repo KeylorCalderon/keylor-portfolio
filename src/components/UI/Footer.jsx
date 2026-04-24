@@ -15,10 +15,7 @@ function Footer() {
         <a href="https://github.com/KeylorCalderon" target="_blank">
           GitHub
         </a>
-        <a
-          href="https://www.linkedin.com/in/keylor-calder%C3%B3n-vega-aa6567214/"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/keylor-calderon/" target="_blank">
           LinkedIn
         </a>
       </div>
