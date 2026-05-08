@@ -127,7 +127,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.form-contact-button::hover{
+.form-contact-button:hover{
     background: #ff4902;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.5), 0 0 18px rgba(0, 0, 0, 0.3);
     transform: scale(1.1);
@@ -182,5 +182,41 @@
     text-align: center;
 
     color: var(--textTransparentLight);
+  }
+
+  .contact-button {
+    width: 118px;
+    height: 42px;
+    display: flex;
+
+    border-radius: 8px;
+    background: var(--blueLight);
+    color: #E8E8E8;
+    text-decoration: none;
+
+    font-size: 16px;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    flex-shrink: 0;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .contact-button-extra-logo-git {
+    margin-left: 0px;
+    height: 30px;
+  }
+
+  .contact-button-extra-logo {
+    margin-left: 0px;
+    height: 30px;
+  }
+
+  .contact-item-logo {
+    margin-left: 0px;
+    height: 30px;
   }
 }
