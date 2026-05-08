@@ -1,0 +1,134 @@
+.section-container-contact{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding-bottom: 60px;
+  border-radius: 24px;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 42px;
+    font-weight: 700;
+
+    color: var(--blueLight);
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin-bottom: 44px;
+    margin-top: 4px;
+
+    color: var(--textTransparentLight);
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 7fr 10fr;
+    gap: 22px;
+
+    margin-bottom: 80px;
+}
+
+.info-container h3 {
+    font-size: 32px;
+    font-weight: 700;
+
+    color: var(--blackLight);
+}
+
+.info-container p {
+    margin-top: 18px;
+    font-size: 17px;
+    margin-bottom: 16px;
+
+    color: var(--textTransparentLight);
+}
+
+.contact-button {
+    width: 148px;
+    height: 52px;
+    display: flex;
+
+    border-radius: 8px;
+    background: var(--blueLight);
+    color: #E8E8E8;
+    text-decoration: none;
+
+    font-size: 22px;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    flex-shrink: 0;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.contact-item-logo {
+    margin-left: 6px;
+}
+
+.contact-button span{
+    margin-top: 4px;
+}
+
+.contact-button-extra {
+    margin-left: 4px;
+}
+
+.contact-button-extra-logo-git {
+    margin-left: 10px;
+}
+
+.contact-button-extra-logo {
+    margin-left: 16px;
+}
+
+.contact-button:hover {
+    background: #ff4902;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5), 0 0 18px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.form-contact{
+    background-color:#f0f0f0;
+    border-radius: 16px;
+
+    padding: 20px 20px;
+}
+
+.form-contact-item {
+    background-color: rgb(255, 255, 255);
+}
+
+.form-contact-button {
+    cursor: pointer;
+    width: 90%;
+    border-radius: 8px;
+    background: var(--blueLight);
+    color: #E8E8E8;
+    text-decoration: none;
+
+    font-size: 24px;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-contact-button::hover{
+    background: #ff4902;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5), 0 0 18px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}

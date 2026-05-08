@@ -1,99 +1,67 @@
 @import 'tailwindcss';
 
+:root {
+  --whiteLight: #FEFEFE;
+  --blackLight: #121212;
+
+  --lightBlueLight: #F0F3FA;
+  --blueLight: #3273db;
+  --darkBlueLight: #022B3A;
+
+  --lightBlueLightBoxesSkills: #FEFEFE;
+
+  --textTransparentLight: #515e70;
+
+}
+
+.dark {
+  --whiteLight: #181818;
+  --blackLight: #f1f1f1;
+
+  --lightBlueLight: #222222;
+  --blueLight: #336ac2;
+  --darkBlueLight: #022B3A;
+
+   --lightBlueLightBoxesSkills: #313131;
+
+  --textTransparentLight: #94A3B8;
+
+}
+
 body {
-    font-family: 'Inter';
-    color: #181818;
+  font-family: sans-serif, "Inter", system-ui;
 }
 
-.standard-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.page-container {
+  padding: 0;
 
-    border-radius: 15%;
-    background: #181818;
-    color: #E8E8E8;
-    text-decoration: none;
-
-    font-size: 12px;
-    transition: all 0.25s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-
-    padding: 6px 12px;
-    width: fit-content;
-    cursor: pointer;
 }
 
-.standard-button:hover {
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5), 0 0 8px rgba(0, 0, 0, 0.3);
-    transform: scale(1.1);
+@media (max-width: 768px) {
+  .page-container {
+    padding: 60px 20px;
+  }
 }
 
-.send-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.section-container{
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
 
-    border-radius: 20px;
-    background: #181818;
-    color: #E8E8E8;
+  padding: 56px 24px;
 
-    font-size: 18px;
-    transition: all 0.25s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-
-    padding: 6px 12px;
-    width: 120px;
-    height: 50px;
-    cursor: pointer;
+  margin-bottom: 80px;
+  border-radius: 24px;
 }
 
-.send-button:hover {
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5), 0 0 8px rgba(0, 0, 0, 0.3);
-    transform: scale(1.1);
+.page-container {
+  background: var(--whiteLight);
 }
 
-.demo-button {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 50%;
-    background: #ec4e15;
-    color: #E8E8E8;
-    text-decoration: none;
-
-    font-size: 12px;
-    transition: all 0.25s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+.page-container section:nth-child(odd) {
+  background: var(--whiteLight);
 }
 
-.demo-button:hover {
-    background: #ff4902;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5), 0 0 18px rgba(0, 0, 0, 0.3);
-    transform: scale(1.1);
-}
-
-.toolset {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.tool {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  padding: 8px 12px;
-  border-radius: 10px;
-
-  background: #181818;
-  color: #E8E8E8;
-
-  font-size: 14px;
-
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+.page-container section:nth-child(even) {
+  background: var(--lightBlueLight);
 }
