@@ -53,7 +53,7 @@ export default function Contact() {
       </header>
 
       <div className="info-container">
-        <div>
+        <div className="info-personal">
           <h3>{t.contact.infoTitle}</h3>
           <p>{t.contact.infoText}</p>
           <br />

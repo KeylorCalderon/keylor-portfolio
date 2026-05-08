@@ -37,6 +37,10 @@ When I’m not coding, I enjoy reading or exploring new spots around my city, st
       email: "Email",
       message: "Message",
       send: "Send",
+    },
+    footer: {
+      rights: "All rights reserved.",
+      end: "Made with ♥ and React."
     }
   },
 
@@ -82,6 +86,10 @@ Cuando no estoy programando, disfruto leer, explorar nuevos lugares en mi ciudad
     email: "Correo electrónico",
     message: "Mensaje",
     send: "Enviar",
-  }
+  },
+    footer: {
+      rights: "Todos los derechos reservados.",
+      end: "Hecho con ♥ y React."
+    }
 }
 };

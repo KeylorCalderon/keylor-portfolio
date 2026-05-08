@@ -45,7 +45,7 @@
 }
 
 .navbar button {
-  background: linear-gradient(135deg, #00d4ff, #0077ff);
+  background: linear-gradient(135deg, #3775da, #3273db);
   border: none;
   color: white;
   padding: 10px 16px;
@@ -54,6 +54,8 @@
   font-weight: bold;
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(0, 212, 255, 0.25);
+
+  height: 42px;
 }
 
 .navbar button:hover {
@@ -69,3 +71,4 @@
   padding: 8px 12px;
   border-radius: 10px;
 }
+

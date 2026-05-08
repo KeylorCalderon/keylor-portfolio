@@ -132,3 +132,55 @@
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.5), 0 0 18px rgba(0, 0, 0, 0.3);
     transform: scale(1.1);
 }
+
+@media (max-width: 1024px) {
+  .info-container {
+    display: block;
+    gap: 22px;
+
+    margin-bottom: 0px;
+  }
+
+  .form-contact{
+    background-color:#f0f0f0;
+    border-radius: 16px;
+
+    margin-top: 48px;
+    padding: 20px 20px;
+  }
+
+  .info-personal {
+    margin: auto;
+    align-items: center;
+  }
+
+  .contact-container {
+    text-align: center;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .info-container h3 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+
+    color: var(--blackLight);
+  }
+
+  .info-container p {
+    margin-top: 18px;
+    font-size: 17px;
+    margin-bottom: 16px;
+    text-align: center;
+
+    color: var(--textTransparentLight);
+  }
+}

@@ -38,3 +38,30 @@
 
   display: block;
 }
+
+@media (max-width: 1024px) {
+  .about-me-description-container {
+    display: block;
+    
+  }
+
+  .about-me-description-container p {
+    font-size: 18px;
+    margin-top: 26px;
+    white-space: pre-line;
+    text-align: justify;
+
+    margin-left: 0px;
+  }
+
+  .about-me-image img {
+    width: 100%;
+    max-width: 550px;
+
+    border-radius: 4%;
+
+    margin: 0 auto;
+
+    display: block;
+  }
+}
