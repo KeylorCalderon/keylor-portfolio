@@ -10,6 +10,7 @@ import consigliereImg5 from "../assets/consigliere_images/Image5.png";
 import consigliereImg6 from "../assets/consigliere_images/Image6.png";
 import consigliereImg7 from "../assets/consigliere_images/Image7.png";
 
+import eatImg0 from "../assets/eats_delivery_images/Image0.jpg";
 import eatImg1 from "../assets/eats_delivery_images/Image1.png";
 import eatImg2 from "../assets/eats_delivery_images/Image2.png";
 import eatImg3 from "../assets/eats_delivery_images/Image3.png";
@@ -21,12 +22,14 @@ import eatImg8 from "../assets/eats_delivery_images/Image8.png";
 import eatImg9 from "../assets/eats_delivery_images/Image9.png";
 import eatImg10 from "../assets/eats_delivery_images/Image10.png";
 
+import hostImg0 from "../assets/host_inn_images/Image0.jpg";
 import hostImg1 from "../assets/host_inn_images/Image1.png";
 import hostImg2 from "../assets/host_inn_images/Image2.png";
 import hostImg3 from "../assets/host_inn_images/Image3.png";
 import hostImg4 from "../assets/host_inn_images/Image4.png";
 import hostImg5 from "../assets/host_inn_images/Image5.png";
 
+import keyImg0 from "../assets/keysforgeeks_images/Image0.jpg";
 import keyImg1 from "../assets/keysforgeeks_images/Image1.png";
 import keyImg2 from "../assets/keysforgeeks_images/Image2.png";
 import keyImg3 from "../assets/keysforgeeks_images/Image3.png";
@@ -79,7 +82,7 @@ export const projects = {
       tech: ["Java", "Android", "Gradle", "SQLite"],
       repo: "https://github.com/KeylorCalderon/Eats-Delivery-app",
       demo: "",
-      images: [eatImg1, eatImg2, eatImg3, eatImg4, eatImg5, eatImg6, eatImg7, eatImg8, eatImg9, eatImg10]
+      images: [eatImg0, eatImg1, eatImg2, eatImg3, eatImg4, eatImg5, eatImg6, eatImg7, eatImg8, eatImg9, eatImg10]
     },
     {
       id: 6,
@@ -88,7 +91,7 @@ export const projects = {
       tech: ["HTML", "CSS", "Handlebars.js", "Node.js", "Express.js", "MySQL", "Stored Procedures"],
       repo: "https://github.com/KeylorCalderon/host-inn-hotel-system",
       demo: "",
-      images: [hostImg1, hostImg2, hostImg3, hostImg4, hostImg5]
+      images: [hostImg0, hostImg1, hostImg2, hostImg3, hostImg4, hostImg5]
     },
     {
       id: 7,
@@ -97,7 +100,7 @@ export const projects = {
       tech: ["PHP", "HTML", "CSS", "JavaScript", "SOAP", "MySQL"],
       repo: "https://github.com/KeylorCalderon/Keysforgeeks",
       demo: "",
-      images: [keyImg1, keyImg2, keyImg3, keyImg4, keyImg5, keyImg6]
+      images: [keyImg0, keyImg1, keyImg2, keyImg3, keyImg4, keyImg5, keyImg6]
     }
   ],
   es: [
@@ -144,7 +147,7 @@ export const projects = {
       tech: ["Java", "Android", "Gradle", "SQLite"],
       repo: "https://github.com/KeylorCalderon/Eats-Delivery-app",
       demo: "",
-      images: [eatImg1, eatImg2, eatImg3, eatImg4, eatImg5, eatImg6, eatImg7, eatImg8, eatImg9, eatImg10]
+      images: [eatImg0, eatImg1, eatImg2, eatImg3, eatImg4, eatImg5, eatImg6, eatImg7, eatImg8, eatImg9, eatImg10]
     },
     {
       id: 6,
@@ -153,7 +156,7 @@ export const projects = {
       tech: ["HTML", "CSS", "Handlebars.js", "Node.js", "Express.js", "MySQL", "Stored Procedures"],
       repo: "https://github.com/KeylorCalderon/host-inn-hotel-system",
       demo: "",
-      images: [hostImg1, hostImg2, hostImg3, hostImg4, hostImg5]
+      images: [hostImg0, hostImg1, hostImg2, hostImg3, hostImg4, hostImg5]
     },
     {
       id: 7,
@@ -162,7 +165,7 @@ export const projects = {
       tech: ["PHP", "HTML", "CSS", "JavaScript", "SOAP", "MySQL"],
       repo: "https://github.com/KeylorCalderon/Keysforgeeks",
       demo: "",
-      images: [keyImg1, keyImg2, keyImg3, keyImg4, keyImg5, keyImg6]
+      images: [keyImg0, keyImg1, keyImg2, keyImg3, keyImg4, keyImg5, keyImg6]
     }
   ]
 };
