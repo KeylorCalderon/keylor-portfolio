@@ -12,7 +12,7 @@ import Contact from "./sections/Contact";
 import { LanguageProvider } from "./i18n/LanguageContext";
 import "./index.css";
 
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
