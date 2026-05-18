@@ -12,25 +12,30 @@ import Contact from "./sections/Contact";
 import { LanguageProvider } from "./i18n/LanguageContext";
 import "./index.css";
 
+import { Analytics } from "@vercel/analytics/next";
+
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <LanguageProvider>
-      <div className={darkMode ? "dark" : ""}>
-        <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+    <>
+      <LanguageProvider>
+        <div className={darkMode ? "dark" : ""}>
+          <Header darkMode={darkMode} setDarkMode={setDarkMode} />
 
-        <main className="page-container">
-          <Hero />
-          <About />
-          <Skills />
-          <Projects />
-          <Contact />
-        </main>
+          <main className="page-container">
+            <Hero />
+            <About />
+            <Skills />
+            <Projects />
+            <Contact />
+          </main>
 
-        <Footer />
-      </div>
-    </LanguageProvider>
+          <Footer />
+        </div>
+      </LanguageProvider>
+      <Analytics />
+    </>
   );
 }
 
