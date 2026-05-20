@@ -174,5 +174,5 @@ export const aboutMe = {
     info: `I am a full-stack developer living in Costa Rica.
     I enjoy solving problems and transforming design concepts into flawless websites.
     I am interested in cybersecurity, automation, and DevOps.
-    When I am not coding, I am an avid reader.`
+    When I am not coding, I am an avid reader!`
 };
