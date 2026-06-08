@@ -107,7 +107,7 @@ export const projects = {
     {
       id: 1,
       title: "La Pregunta Final",
-      description: "Experiencia narrativa inmersiva basada en texto con decisiones ramificadas, que explora el destino de una civilización a través de tus elecciones. Una historia sobre responsabilidad y consecuencias.",
+      description: "Experiencia narrativa inmersiva basada en texto con decisiones ramificadas, que explora el destino de una civilización a través de tus elecciones. Una historia sobre responsabilidad y sus consecuencias.",
       tech: ["React", "Tailwind", "JavaScript"],
       repo: "https://github.com/KeylorCalderon/final-question-interactive-text-game",
       demo: "https://final-question-interactive-text-gam.vercel.app/",
